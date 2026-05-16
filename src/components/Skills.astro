@@ -1,0 +1,50 @@
+---
+import SectionTitle from './SectionTitle.astro';
+import SkillCard from './SkillCard.astro';
+
+const skills = [
+  {
+    title: 'Metodo e precisione',
+    text: "L'esperienza tecnica mi ha insegnato a seguire processi, rispettare scadenze, documentare il lavoro e curare i dettagli fino al risultato finale.",
+    tone: 'coral',
+  },
+  {
+    title: 'Sensibilità visiva',
+    text: "Lavorare con colori, superfici e grafiche mi ha allenata a osservare l'impatto visivo delle cose: contrasti, armonie, resa cromatica e coerenza estetica.",
+    tone: 'apricot',
+  },
+  {
+    title: 'Creatività concreta',
+    text: 'Mi piace cercare idee nei dettagli quotidiani e trasformarle in spunti visivi, contenuti e narrazioni semplici ma riconoscibili.',
+    tone: 'lilac',
+  },
+  {
+    title: 'Comunicazione chiara',
+    text: 'Sto imparando a costruire messaggi semplici, diretti e adatti ai social, con attenzione al tono di voce e alla leggibilità.',
+    tone: 'sage',
+  },
+  {
+    title: 'Voglia di imparare',
+    text: 'Sto seguendo corsi di social media marketing e marketing digitale per costruire basi solide e crescere in modo serio nel settore.',
+    tone: 'coral',
+  },
+  {
+    title: 'Operatività',
+    text: 'Sono abituata a lavorare con autonomia, problem solving e attenzione al risultato. Cerco un ambiente dove trasformare queste qualità in competenze social.',
+    tone: 'apricot',
+  },
+] as const;
+---
+
+<section id="competenze" class="section">
+  <div class="container-page">
+    <SectionTitle
+      eyebrow="Cosa porto con me"
+      title="Un modo di lavorare preciso, curioso e visivo"
+      text="Prima ancora dei social, porto un approccio concreto: attenzione a ciò che comunica, cura del dettaglio e voglia di imparare sul campo."
+    />
+    <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      {skills.map((skill) => <SkillCard {...skill} />)}
+    </div>
+  </div>
+</section>

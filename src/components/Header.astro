@@ -1,0 +1,75 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+
+const links = [
+  { href: '#chi-sono', label: 'Chi sono' },
+  { href: '#competenze', label: 'Competenze' },
+  { href: '#progetti', label: 'Progetti' },
+  { href: '#contatti', label: 'Contatti' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-ink/10 bg-paper/90 backdrop-blur-xl transition-colors duration-300 dark:border-white/10 dark:bg-night/90">
+  <div class="container-page flex min-h-16 items-center justify-between gap-4">
+    <a href="#top" class="font-display text-base font-bold text-ink dark:text-nighttext" aria-label="Torna all'inizio">
+      Carlotta Della Casa
+    </a>
+
+    <nav class="hidden items-center gap-7 md:flex" aria-label="Navigazione principale">
+      {links.map((link) => (
+        <a class="text-sm font-semibold text-muted hover:text-coral dark:text-nighttext/72 dark:hover:text-apricot" href={link.href}>
+          {link.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="hidden items-center gap-3 md:flex">
+      <a class="button-secondary py-2" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica CV</a>
+      <ThemeToggle />
+    </div>
+
+    <div class="flex items-center gap-2 md:hidden">
+      <ThemeToggle />
+      <button
+        id="menu-toggle"
+        type="button"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink/15 bg-white/80 text-ink dark:border-white/15 dark:bg-white/5 dark:text-nighttext"
+        aria-label="Apri menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span aria-hidden="true">☰</span>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-menu" class="hidden border-t border-ink/10 bg-paper px-5 py-4 dark:border-white/10 dark:bg-night md:hidden" aria-label="Navigazione mobile">
+    <div class="mx-auto flex max-w-7xl flex-col gap-3">
+      {links.map((link) => (
+        <a class="rounded-lg px-2 py-2 text-sm font-semibold text-muted hover:bg-white/70 hover:text-coral dark:text-nighttext/72 dark:hover:bg-white/5 dark:hover:text-apricot" href={link.href}>
+          {link.label}
+        </a>
+      ))}
+      <a class="button-primary mt-2 w-full" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica CV</a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const menuButton = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const menuLinks = menu?.querySelectorAll('a');
+
+  menuButton?.addEventListener('click', () => {
+    const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!isOpen));
+    menu?.classList.toggle('hidden', isOpen);
+  });
+
+  menuLinks?.forEach((link) => {
+    link.addEventListener('click', () => {
+      menuButton?.setAttribute('aria-expanded', 'false');
+      menu?.classList.add('hidden');
+    });
+  });
+</script>

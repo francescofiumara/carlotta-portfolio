@@ -1,0 +1,47 @@
+---
+import SectionTitle from './SectionTitle.astro';
+
+const items = [
+  {
+    date: '2021',
+    title: 'ITIS Enrico Fermi — Diploma di Perito Chimico',
+    text: 'Formazione tecnica con focus su analisi, metodo e precisione nei processi produttivi.',
+  },
+  {
+    date: 'Febbraio 2022 – Febbraio 2024',
+    title: 'Sicer S.p.A. — Tecnico Divisione Digitale',
+    text: 'Esperienza su prove di stampa digitale, ottimizzazione dei parametri e controllo della resa visiva su superfici ceramiche.',
+  },
+  {
+    date: 'Febbraio 2024 – oggi',
+    title: 'Sicer S.p.A. — Tecnico Ricerca & Sviluppo',
+    text: 'Ricerca e test su nuovi materiali, colori e grafiche per prodotti destinati al settore ceramico.',
+  },
+  {
+    date: 'In corso',
+    title: 'Google Digital Garage — Concetti di base del marketing digitale',
+    text: 'Introduzione alla comunicazione digitale, branding e marketing online.',
+  },
+  {
+    date: 'In corso',
+    title: 'HubSpot Academy — Social Media Marketing Certification',
+    text: 'Strategie di comunicazione sui social network e gestione creativa delle community.',
+  },
+];
+---
+
+<section id="percorso" class="section bg-white/50 dark:bg-white/[0.03]">
+  <div class="container-page">
+    <SectionTitle eyebrow="Il mio percorso" title="Tecnica, colore e nuove basi digitali" />
+    <div class="mx-auto max-w-4xl">
+      {items.map((item) => (
+        <article class="relative border-l border-ink/10 pb-8 pl-7 last:pb-0 dark:border-white/10">
+          <span class="absolute -left-2 top-1 h-4 w-4 rounded-full border-4 border-paper bg-coral dark:border-night"></span>
+          <p class="text-sm font-bold text-coral">{item.date}</p>
+          <h3 class="mt-2 font-display text-xl font-bold">{item.title}</h3>
+          <p class="mt-2 leading-7 text-muted dark:text-nighttext/72">{item.text}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

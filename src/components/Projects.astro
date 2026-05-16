@@ -1,0 +1,65 @@
+---
+import SectionTitle from './SectionTitle.astro';
+import ProjectCard from './ProjectCard.astro';
+
+const projects = [
+  {
+    name: 'Caffè di Quartiere',
+    type: 'Concept Instagram · Local business',
+    description: "Un'idea di refresh visivo per una piccola caffetteria indipendente: palette calda, tono accogliente e contenuti pensati per raccontare rituali, persone e piccoli momenti quotidiani.",
+    objective: 'Rendere il profilo più riconoscibile, coerente e vicino alla community locale.',
+    approach: [
+      'Osserverei il profilo attuale, il locale e il modo in cui comunica già dal vivo.',
+      'Costruirei una palette calda e qualche rubrica semplice per raccontare prodotti, persone e abitudini quotidiane.',
+      'Preparerei una prima settimana di contenuti per testare tono, visual e continuità del racconto.',
+    ],
+    deliverables: ['mini moodboard', 'palette colori', '6 post Instagram', '3 idee reel', 'tono di voce', 'calendario editoriale di una settimana'],
+    tags: ['Instagram', 'Local business', 'Visual identity', 'Content idea'],
+    palette: 'bg-gradient-to-br from-apricot via-coral/50 to-lilac/70',
+  },
+  {
+    name: 'Glow Lab',
+    type: 'Concept TikTok · Beauty brand',
+    description: 'Un concept di contenuti brevi per un brand beauty giovane, con focus su format semplici, ripetibili e riconoscibili: routine, dietro le quinte, errori comuni, consigli veloci e trend adattati al tono del brand.',
+    objective: 'Creare una presenza TikTok fresca, utile e coerente, senza perdere naturalezza.',
+    approach: [
+      'Partirei dai bisogni del pubblico e dai dubbi più comuni legati ai prodotti o alla routine beauty.',
+      'Creerei format brevi e ripetibili, con hook chiari e un tono spontaneo ma coerente.',
+      'Organizzerei le idee in un calendario leggero, alternando contenuti utili, dietro le quinte e trend adattati al brand.',
+    ],
+    deliverables: ['5 format video', 'script brevi', 'hook iniziali', 'tone of voice', 'idee caption', 'calendario contenuti di due settimane'],
+    tags: ['TikTok', 'Short video', 'Beauty', 'Format content'],
+    palette: 'bg-gradient-to-br from-lilac via-white to-coral/60 dark:via-nightcard',
+  },
+  {
+    name: 'Atelier Forma',
+    type: 'Concept audit · Brand artigianale',
+    description: 'Un esercizio di analisi per una piccola bottega creativa: osservazione del profilo, punti forti, aree da migliorare, tono di voce e suggerimenti per rendere i contenuti più chiari e riconoscibili.',
+    objective: 'Mostrare capacità di osservazione, pensiero critico e attenzione alla coerenza tra immagine, messaggio e pubblico.',
+    approach: [
+      'Analizzerei bio, contenuti, highlights e coerenza visiva per capire cosa funziona e cosa crea confusione.',
+      'Individuerei poche priorità concrete, senza stravolgere l’identità della bottega.',
+      'Proporrei rubriche, caption e piccoli miglioramenti pratici per rendere il profilo più leggibile e riconoscibile.',
+    ],
+    deliverables: ['analisi bio Instagram', 'suggerimenti highlights', 'proposta rubriche', 'esempi caption', 'griglia contenuti', 'checklist miglioramenti'],
+    tags: ['Audit social', 'Instagram', 'Brand voice', 'Strategia base'],
+    palette: 'bg-gradient-to-br from-sage via-apricot/70 to-white dark:to-nightcard',
+  },
+];
+---
+
+<section id="progetti" class="section">
+  <div class="container-page">
+    <SectionTitle
+      eyebrow="Progetti concept"
+      title="Esercizi creativi per mostrare come ragiono"
+      text="Dall'idea visiva al tono di voce, fino alla struttura dei contenuti: qui raccolgo concept personali pensati per allenare metodo, osservazione e creatività."
+    />
+    <p class="mx-auto mb-8 max-w-3xl rounded-lg border border-coral/20 bg-coral/10 p-4 text-center text-sm font-semibold leading-6 text-muted dark:bg-coral/10 dark:text-nighttext/72">
+      I progetti in questa sezione sono concept personali creati a scopo portfolio. Non rappresentano collaborazioni reali con brand o clienti.
+    </p>
+    <div class="grid gap-6 lg:grid-cols-3">
+      {projects.map((project) => <ProjectCard {...project} />)}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+---
+import SectionTitle from './SectionTitle.astro';
+
+const activeTools = ['Canva', 'CapCut', 'Adobe Photoshop base', 'Instagram', 'TikTok', 'LinkedIn'];
+const learningTools = ['Meta Business Suite', 'Social media strategy', 'Calendari editoriali', 'Analisi competitor', 'Report base', 'Community management', 'Brand voice', 'Content planning'];
+---
+
+<section id="strumenti" class="section bg-white/50 dark:bg-white/[0.03]">
+  <div class="container-page">
+    <SectionTitle eyebrow="Strumenti" title="Strumenti che sto usando e imparando" />
+    <div class="mx-auto grid max-w-5xl gap-6 md:grid-cols-2">
+      <article class="card p-6">
+        <h3 class="font-display text-2xl font-bold">Uso già</h3>
+        <div class="mt-5 flex flex-wrap gap-2">
+          {activeTools.map((tool) => (
+            <span class="rounded-full bg-sage/30 px-4 py-2 text-sm font-bold text-ink dark:text-nighttext">{tool}</span>
+          ))}
+        </div>
+      </article>
+      <article class="card p-6">
+        <h3 class="font-display text-2xl font-bold">Sto imparando</h3>
+        <div class="mt-5 flex flex-wrap gap-2">
+          {learningTools.map((tool) => (
+            <span class="rounded-full bg-lilac/30 px-4 py-2 text-sm font-bold text-ink dark:text-nighttext">{tool}</span>
+          ))}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
