@@ -1,30 +1,20 @@
 ---
 import SectionTitle from './SectionTitle.astro';
 
-const activeTools = ['Canva', 'CapCut', 'Adobe Photoshop base', 'Instagram', 'TikTok', 'LinkedIn'];
-const learningTools = ['Meta Business Suite', 'Social media strategy', 'Calendari editoriali', 'Analisi competitor', 'Report base', 'Community management', 'Brand voice', 'Content planning'];
+const groups = [
+  { title: 'Creazione di contenuti', tone: 'bg-coral/10', items: ['Canva — buona autonomia', 'CapCut — conoscenza operativa', 'Adobe Photoshop — conoscenza di base', 'Grafiche per social', 'Caroselli', 'Copy e caption', 'Ideazione di format', 'Storyboard statici'] },
+  { title: 'Social media', tone: 'bg-lilac/25', items: ['Instagram', 'TikTok', 'LinkedIn', 'Calendari editoriali', 'Ricerca di idee e trend', 'Tone of voice', 'Content planning', 'Community management di base'] },
+  { title: 'Analisi e organizzazione', tone: 'bg-sage/25', items: ['Analisi dei competitor', 'Audit social di base', 'Meta Business Suite — conoscenza di base', 'Reportistica di base', 'Organizzazione dei contenuti', 'Pianificazione del lavoro', 'Cura dei dettagli e rispetto delle scadenze'] },
+];
 ---
 
 <section id="strumenti" class="section bg-white/50 dark:bg-white/[0.03]">
   <div class="container-page">
-    <SectionTitle eyebrow="Strumenti" title="Strumenti che sto usando e imparando" />
-    <div class="mx-auto grid max-w-5xl gap-6 md:grid-cols-2">
-      <article class="card p-6">
-        <h3 class="font-display text-2xl font-bold">Uso già</h3>
-        <div class="mt-5 flex flex-wrap gap-2">
-          {activeTools.map((tool) => (
-            <span class="rounded-full bg-sage/30 px-4 py-2 text-sm font-bold text-ink dark:text-nighttext">{tool}</span>
-          ))}
-        </div>
-      </article>
-      <article class="card p-6">
-        <h3 class="font-display text-2xl font-bold">Sto imparando</h3>
-        <div class="mt-5 flex flex-wrap gap-2">
-          {learningTools.map((tool) => (
-            <span class="rounded-full bg-lilac/30 px-4 py-2 text-sm font-bold text-ink dark:text-nighttext">{tool}</span>
-          ))}
-        </div>
-      </article>
+    <SectionTitle eyebrow="Competenze e strumenti" title="Idee organizzate, contenuti coerenti" text="Competenze operative e strumenti che utilizzo per trasformare un’idea in un contenuto organizzato, coerente e adatto al canale." />
+    <div class="mx-auto grid max-w-6xl gap-5 md:grid-cols-3">
+      {groups.map((group) => (
+        <article class="card p-6"><h3 class="font-display text-xl font-bold">{group.title}</h3><div class="mt-5 flex flex-wrap gap-2">{group.items.map((item) => <span class={`rounded-full px-3 py-2 text-sm font-bold text-ink dark:text-nighttext ${group.tone}`}>{item}</span>)}</div></article>
+      ))}
     </div>
   </div>
 </section>

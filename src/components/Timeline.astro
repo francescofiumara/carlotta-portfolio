@@ -35,11 +35,11 @@ const items = [
     <SectionTitle eyebrow="Il mio percorso" title="Tecnica, colore e nuove basi digitali" />
     <div class="mx-auto max-w-4xl">
       {items.map((item) => (
-        <article class="relative border-l border-ink/10 pb-8 pl-7 last:pb-0 dark:border-white/10">
+        <article class="relative border-l border-ink/10 pb-6 pl-6 last:pb-0 dark:border-white/10">
           <span class="absolute -left-2 top-1 h-4 w-4 rounded-full border-4 border-paper bg-coral dark:border-night"></span>
           <p class="text-sm font-bold text-coral">{item.date}</p>
           <h3 class="mt-2 font-display text-xl font-bold">{item.title}</h3>
-          <p class="mt-2 leading-7 text-muted dark:text-nighttext/72">{item.text}</p>
+          <p class="mt-1 leading-6 text-muted dark:text-nighttext/72">{item.text}</p>
         </article>
       ))}
     </div>

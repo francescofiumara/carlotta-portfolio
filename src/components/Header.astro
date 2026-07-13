@@ -24,7 +24,7 @@ const links = [
     </nav>
 
     <div class="hidden items-center gap-3 md:flex">
-      <a class="button-secondary py-2" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica CV</a>
+      <a class="button-secondary py-2" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica il CV</a>
       <ThemeToggle />
     </div>
 
@@ -50,7 +50,7 @@ const links = [
           {link.label}
         </a>
       ))}
-      <a class="button-primary mt-2 w-full" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica CV</a>
+      <a class="button-primary mt-2 w-full" href="/assets/CarlottaDellaCasa_CV.pdf" download>Scarica il CV</a>
     </div>
   </nav>
 </header>
@@ -63,12 +63,14 @@ const links = [
   menuButton?.addEventListener('click', () => {
     const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
     menuButton.setAttribute('aria-expanded', String(!isOpen));
+    menuButton.setAttribute('aria-label', isOpen ? 'Apri menu' : 'Chiudi menu');
     menu?.classList.toggle('hidden', isOpen);
   });
 
   menuLinks?.forEach((link) => {
     link.addEventListener('click', () => {
       menuButton?.setAttribute('aria-expanded', 'false');
+      menuButton?.setAttribute('aria-label', 'Apri menu');
       menu?.classList.add('hidden');
     });
   });
