@@ -4,13 +4,13 @@ import SectionTitle from './SectionTitle.astro';
 const groups = [
   { title: 'Strumenti che uso', tone: 'bg-coral/10', items: ['Canva — buona autonomia', 'CapCut — conoscenza operativa', 'Adobe Photoshop — conoscenza di base', 'Instagram', 'TikTok', 'LinkedIn'] },
   { title: 'Contenuti che so sviluppare', tone: 'bg-lilac/25', items: ['Grafiche per social', 'Caroselli', 'Copy e caption', 'Ideazione di format', 'Sequenze illustrate', 'Calendari editoriali'] },
-  { title: 'Competenze in crescita', tone: 'bg-sage/25', items: ['Ricerca di idee e trend', 'Tone of voice', 'Pianificazione dei contenuti', 'Analisi dei competitor', 'Audit social di base', 'Meta Business Suite — conoscenza di base', 'Reportistica di base', 'Community management di base'] },
+  { title: 'Competenze in crescita', tone: 'bg-sage/25', items: ['Ricerca di idee e trend', 'Tone of voice', 'Pianificazione dei contenuti', 'Analisi dei competitor', 'Audit social', 'Meta Business Suite', 'Reportistica', 'Community management'] },
 ];
 ---
 
 <section id="strumenti" class="section bg-white/50 dark:bg-white/[0.03]">
   <div class="container-page">
-    <SectionTitle eyebrow="Competenze e strumenti" title="Quello che uso, quello che sto consolidando" text="Indico con trasparenza il mio livello: ho basi operative nella creazione di contenuti e sto approfondendo gli strumenti di pianificazione e analisi." />
+    <SectionTitle eyebrow="Competenze e strumenti" title="Quello che uso e quello che sto consolidando" text="Conoscenza base nella creazione di contenuti e approfondendo gli strumenti di pianificazione e analisi." />
     <div class="mx-auto grid max-w-6xl gap-5 md:grid-cols-3">
       {groups.map((group) => (
         <article class="card p-6"><h3 class="font-display text-xl font-bold">{group.title}</h3><div class="mt-5 flex flex-wrap gap-2">{group.items.map((item) => <span class={`rounded-full px-3 py-2 text-sm font-bold text-ink dark:text-nighttext ${group.tone}`}>{item}</span>)}</div></article>
