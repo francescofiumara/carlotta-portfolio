@@ -4,23 +4,23 @@ import SkillCard from './SkillCard.astro';
 
 const skills = [
   {
-    title: 'Metodo',
-    text: 'Organizzo il lavoro, seguo i passaggi con attenzione e rispetto le scadenze.',
+    title: 'Metodo operativo',
+    text: 'Arrivo da un contesto in cui processi, controlli e scadenze contano: porto questa attenzione anche nell’organizzazione dei contenuti.',
     tone: 'coral',
   },
   {
     title: 'Sensibilità visiva',
-    text: 'L’esperienza con colori, superfici e grafiche mi ha allenata a osservare armonie, contrasti e coerenza.',
+    text: 'Colori, superfici e grafiche mi hanno allenata a osservare armonie, contrasti e coerenza: dettagli che rendono riconoscibile un contenuto.',
     tone: 'apricot',
   },
   {
-    title: 'Creatività concreta',
-    text: 'Mi interessa trovare idee che possano essere realmente utilizzate, adattandole al tono e alle esigenze di ogni realtà.',
+    title: 'Idee applicabili',
+    text: 'Nei miei concept parto da un obiettivo e da un pubblico preciso, per trasformare un’idea in format, copy e contenuti utilizzabili.',
     tone: 'lilac',
   },
   {
-    title: 'Collaborazione',
-    text: 'Ascolto, accolgo i feedback e affronto le revisioni come parte naturale del lavoro creativo.',
+    title: 'Ascolto e confronto',
+    text: 'Sono abituata a lavorare con precisione e ad accogliere indicazioni e revisioni: per me il confronto è parte del risultato.',
     tone: 'sage',
   },
 ] as const;
@@ -30,8 +30,8 @@ const skills = [
   <div class="container-page">
     <SectionTitle
       eyebrow="Cosa porto con me"
-      title="Un approccio concreto al lavoro creativo"
-      text="Metodo, sensibilità visiva e disponibilità al confronto sono il punto di partenza con cui affronto ogni contenuto."
+      title="Le basi che porto in un team"
+      text="Non sostituiscono l’esperienza in agenzia: sono il punto di partenza concreto con cui voglio imparare e contribuire ai progetti del team."
     />
     <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
       {skills.map((skill) => <SkillCard {...skill} />)}

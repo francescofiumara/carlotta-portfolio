@@ -2,17 +2,17 @@
 
 ## Nome progetto
 
-Portfolio personale di Carlotta Della Casa — Aspirante Social Media Manager
+Portfolio personale di Carlotta Della Casa — Junior Content Creator & Social Media Assistant
 
 ---
 
 ## Obiettivo del sito
 
-Creare un sito portfolio one-page, moderno, creativo e professionale per Carlotta Della Casa, aspirante Social Media Manager con base a Modena e dintorni.
+Creare un sito portfolio one-page, moderno, creativo e professionale per Carlotta Della Casa, candidata junior Content Creator e Social Media Assistant con base a Modena e provincia.
 
 L’obiettivo principale del sito è aiutare Carlotta a trovare lavoro in agenzie di comunicazione, studi creativi o aziende del territorio interessate a profili junior da formare.
 
-Il sito deve comunicare che Carlotta non ha ancora esperienza diretta come Social Media Manager, ma possiede qualità trasferibili molto forti:
+Il sito deve comunicare con trasparenza che Carlotta non ha ancora esperienza diretta in agenzia, ma possiede basi operative e qualità trasferibili solide:
 
 - precisione
 - metodo
@@ -31,7 +31,7 @@ Il sito deve presentarla come una figura junior motivata, credibile e pronta a c
 ## Profilo della persona
 
 Nome: Carlotta Della Casa  
-Ruolo: Aspirante Social Media Manager  
+Ruolo: Junior Content Creator e Social Media Assistant
 Area: Modena e dintorni  
 Lingua sito: Italiano  
 Obiettivo professionale: entrare in un’agenzia di comunicazione o in una realtà creativa come figura junior/social media assistant.
@@ -46,7 +46,7 @@ Ora vuole cambiare percorso professionale e portare il proprio lato creativo nel
 
 Il posizionamento principale deve essere:
 
-> Una mente tecnica con spirito creativo, pronta a trasformare attenzione al dettaglio, sensibilità visiva e voglia di imparare in contenuti social efficaci.
+> Una candidata junior con metodo tecnico e sensibilità creativa, pronta a trasformare attenzione al dettaglio, ascolto e curiosità in contenuti social chiari e utili.
 
 Non presentare Carlotta come una professionista senior o come una social media manager già esperta.
 
@@ -313,18 +313,17 @@ CTA secondaria:
 
 ### Title
 
-`Carlotta Della Casa | Aspirante Social Media Manager a Modena`
+`Carlotta Della Casa | Junior Content Creator & Social Media Assistant a Modena`
 
 ### Meta description
 
-`Portfolio di Carlotta Della Casa, aspirante Social Media Manager a Modena. Mente tecnica e spirito creativo, con attenzione al colore, ai dettagli e alla comunicazione digitale.`
+`Portfolio di Carlotta Della Casa, candidata junior Content Creator e Social Media Assistant a Modena. Metodo tecnico, sensibilità visiva e concept personali per la comunicazione digitale.`
 
 ### Keywords concettuali
 
 Non serve inserire meta keywords obsolete, ma il sito deve essere scritto tenendo conto di questi concetti:
 
 - Social Media Manager Modena
-- Aspirante Social Media Manager
 - Junior Social Media Manager
 - Portfolio comunicazione digitale
 - Content creator junior
@@ -383,7 +382,7 @@ La hero deve comunicare subito personalità, obiettivo e direzione professionale
 
 ### Headline consigliata
 
-`Mente tecnica, spirito creativo. Sto costruendo il mio futuro nei social media.`
+`Metodo tecnico, occhio creativo. Sto costruendo il mio percorso nella comunicazione digitale.`
 
 ### Variante più energica
 
@@ -391,7 +390,7 @@ La hero deve comunicare subito personalità, obiettivo e direzione professionale
 
 ### Variante più diretta
 
-`Aspirante Social Media Manager con una testa precisa e un occhio creativo.`
+`Junior Content Creator con un approccio preciso e un occhio creativo.`
 
 Usare una di queste oppure crearne una migliore mantenendo lo stesso significato.
 
@@ -752,7 +751,7 @@ Contenuti:
 
 Microcopy opzionale:
 
-`Portfolio personale · Modena · Aspirante Social Media Manager`
+`Portfolio personale · Modena · Junior Content Creator & Social Media Assistant`
 
 ---
 
