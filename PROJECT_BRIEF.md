@@ -2,13 +2,13 @@
 
 ## Nome progetto
 
-Portfolio personale di Carlotta Della Casa — Junior Content Creator & Social Media Assistant
+Portfolio personale di Carlotta Della Casa — Junior Content Creator & Social Media Manager
 
 ---
 
 ## Obiettivo del sito
 
-Creare un sito portfolio one-page, moderno, creativo e professionale per Carlotta Della Casa, candidata junior Content Creator e Social Media Assistant con base a Modena e provincia.
+Creare un sito portfolio one-page, moderno, creativo e professionale per Carlotta Della Casa, candidata junior Content Creator e Social Media Manager con base a Modena e provincia.
 
 L’obiettivo principale del sito è aiutare Carlotta a trovare lavoro in agenzie di comunicazione, studi creativi o aziende del territorio interessate a profili junior da formare.
 
@@ -16,7 +16,7 @@ Il sito deve comunicare con trasparenza che Carlotta non ha ancora esperienza di
 
 - precisione
 - metodo
-- sensibilità visiva
+- occhio estetico
 - attenzione al colore
 - esperienza in ambito tecnico e digitale
 - curiosità
@@ -31,10 +31,10 @@ Il sito deve presentarla come una figura junior motivata, credibile e pronta a c
 ## Profilo della persona
 
 Nome: Carlotta Della Casa  
-Ruolo: Junior Content Creator e Social Media Assistant
-Area: Modena e dintorni  
+Ruolo: Junior Content Creator e Social Media Manager
+Area: Modena e provincia
 Lingua sito: Italiano  
-Obiettivo professionale: entrare in un’agenzia di comunicazione o in una realtà creativa come figura junior/social media assistant.
+Obiettivo professionale: entrare in un’agenzia di comunicazione o in una realtà creativa come figura junior/social media manager.
 
 Carlotta oggi lavora nel settore tecnico, in particolare nel mondo del colore, della stampa digitale e della ricerca e sviluppo. Questa esperienza le ha permesso di sviluppare precisione, attenzione al dettaglio, sensibilità cromatica e metodo operativo.
 
@@ -46,7 +46,7 @@ Ora vuole cambiare percorso professionale e portare il proprio lato creativo nel
 
 Il posizionamento principale deve essere:
 
-> Una candidata junior con metodo tecnico e sensibilità creativa, pronta a trasformare attenzione al dettaglio, ascolto e curiosità in contenuti social chiari e utili.
+> Una candidata junior con metodo tecnico e occhio estetico, pronta a trasformare attenzione al dettaglio, ascolto e curiosità in contenuti social chiari e utili.
 
 Non presentare Carlotta come una professionista senior o come una social media manager già esperta.
 
@@ -68,7 +68,7 @@ Il sito si rivolge principalmente a:
 - studi creativi
 - agenzie social media
 - piccole e medie aziende del territorio
-- realtà locali di Modena e dintorni
+- realtà locali di Modena e provincia
 - aziende che cercano una figura junior da inserire in team marketing/comunicazione
 
 Non ci sono settori da evitare.
@@ -313,11 +313,11 @@ CTA secondaria:
 
 ### Title
 
-`Carlotta Della Casa | Junior Content Creator & Social Media Assistant a Modena`
+`Carlotta Della Casa | Junior Content Creator & Social Media Manager a Modena`
 
 ### Meta description
 
-`Portfolio di Carlotta Della Casa, candidata junior Content Creator e Social Media Assistant a Modena. Metodo tecnico, sensibilità visiva e concept personali per la comunicazione digitale.`
+`Portfolio di Carlotta Della Casa, candidata junior per agenzie di comunicazione a Modena. Concept social, contenuti grafici e un approccio che unisce metodo, colore e comunicazione.`
 
 ### Keywords concettuali
 
@@ -327,7 +327,6 @@ Non serve inserire meta keywords obsolete, ma il sito deve essere scritto tenend
 - Junior Social Media Manager
 - Portfolio comunicazione digitale
 - Content creator junior
-- Social media assistant
 - Agenzie comunicazione Modena
 
 ---
@@ -382,21 +381,23 @@ La hero deve comunicare subito personalità, obiettivo e direzione professionale
 
 ### Headline consigliata
 
-`Metodo tecnico, occhio creativo. Sto costruendo il mio percorso nella comunicazione digitale.`
+`Contenuti chiari, curati e pensati per le persone.`
 
 ### Variante più energica
 
-`Porto metodo, colore e creatività nel mondo dei social.`
+`Junior Content Creator & Social Media Manager con metodo tecnico e occhio estetico.`
 
 ### Variante più diretta
 
-`Junior Content Creator con un approccio preciso e un occhio creativo.`
+`Sono Carlotta Della Casa: cerco un’opportunità junior in un’agenzia di Modena o provincia.`
 
 Usare una di queste oppure crearne una migliore mantenendo lo stesso significato.
 
 ### Sottotitolo
 
-`Sono Carlotta Della Casa, vivo a Modena e sto trasformando la mia esperienza tra colore, dettagli e ricerca in un nuovo percorso nella comunicazione digitale.`
+`Sono Carlotta Della Casa. Arrivo da un lavoro tecnico fatto di ricerca, colore e stampa digitale: un’esperienza che mi ha insegnato a osservare, organizzare e rendere chiari anche gli aspetti più complessi.`
+
+`Oggi sto costruendo il mio percorso nella comunicazione digitale. Cerco un’opportunità junior in un’agenzia di Modena o provincia, dove contribuire a concept, contenuti e piani editoriali.`
 
 ### CTA
 
@@ -411,11 +412,11 @@ Inserire la foto profilo in modo elegante.
 
 Aggiungere piccoli tag/label intorno alla hero, ad esempio:
 
-- `Social media in progress`
-- `Visual thinking`
+- `Contenuti e piani editoriali`
+- `Occhio estetico`
 - `Canva · CapCut · Photoshop base`
-- `Modena e dintorni`
-- `Pronta a imparare`
+- `Modena e provincia`
+- `Disponibile per un inserimento junior`
 
 Non usare statistiche numeriche, perché non ci sono esperienze o progetti reali da quantificare.
 
@@ -431,11 +432,11 @@ Sezione breve e personale.
 
 ### Testo suggerito
 
-`Arrivo da un percorso tecnico, fatto di prove, colore, precisione e attenzione ai dettagli. Per anni ho lavorato in un contesto dove metodo e resa visiva contano davvero: stampa digitale, ricerca e sviluppo, materiali, grafiche e controllo del risultato finale.`
+`Il mio percorso nasce in un contesto tecnico, tra ricerca, colore, materiali e stampa digitale. Lì ho imparato a seguire un processo, gestire richieste concrete, osservare i dettagli e relazionarmi con i clienti.`
 
-`Nel tempo ho capito che il mio lato creativo chiedeva più spazio. Oggi sto studiando social media marketing e comunicazione digitale, con l’obiettivo di entrare in un’agenzia dove imparare, crescere e contribuire con energia, curiosità e una visione personale.`
+`Nel tempo ho scelto di dare spazio anche alla comunicazione digitale. Sto studiando e imparando sempre di più sul mondo della comunicazione digitale e vorrei mettermi alla prova concretamente in un team.`
 
-`Non mi presento come una professionista arrivata. Mi presento come una persona motivata, precisa e pronta a costruire qualcosa di bello, un contenuto alla volta.`
+`Non mi presento come una figura senior: cerco un’opportunità junior in un’agenzia o in una realtà creativa dove imparare con serietà e contribuire con metodo, curiosità, ascolto e attenzione a ciò che un brand vuole davvero comunicare.`
 
 Mantenere questa sezione compatta.
 
@@ -455,47 +456,35 @@ Presentare invece capacità concrete e trasferibili.
 
 ### Sottotitolo
 
-`Prima ancora dei social, porto un modo di lavorare: preciso, curioso e attento a ciò che comunica visivamente.`
+`Non sostituiscono l’esperienza in agenzia: sono il mio punto di partenza.`
 
 ### Card competenze
 
 Creare card, non barre percentuali.
 
-#### Card 1 — Metodo e precisione
+#### Card 1 — Metodo operativo
 
 Testo:
 
-`L’esperienza tecnica mi ha insegnato a seguire processi, rispettare scadenze, documentare il lavoro e curare i dettagli fino al risultato finale.`
+`Arrivo da un contesto in cui processi, controlli e scadenze contano: porto questa attenzione anche nell’organizzazione dei contenuti.`
 
-#### Card 2 — Sensibilità visiva
-
-Testo:
-
-`Lavorare con colori, superfici e grafiche mi ha allenata a osservare l’impatto visivo delle cose: contrasti, armonie, resa cromatica e coerenza estetica.`
-
-#### Card 3 — Creatività concreta
+#### Card 2 — Occhio estetico
 
 Testo:
 
-`Mi piace cercare idee nei dettagli quotidiani e trasformarle in spunti visivi, contenuti e narrazioni semplici ma riconoscibili.`
+`Colori, superfici e grafiche mi hanno allenata a osservare armonie, contrasti e coerenza: dettagli che rendono riconoscibile un contenuto.`
 
-#### Card 4 — Comunicazione chiara
-
-Testo:
-
-`Sto imparando a costruire messaggi semplici, diretti e adatti ai social, con attenzione al tono di voce e alla leggibilità.`
-
-#### Card 5 — Voglia di imparare
+#### Card 3 — Idee applicabili
 
 Testo:
 
-`Sto seguendo corsi di social media marketing e marketing digitale per costruire basi solide e crescere in modo serio nel settore.`
+`Nei miei concept parto da un obiettivo e da un pubblico preciso, per trasformare un’idea in format, copy e contenuti utilizzabili.`
 
-#### Card 6 — Operatività
+#### Card 4 — Ascolto e confronto
 
 Testo:
 
-`Sono abituata a lavorare con autonomia, problem solving e attenzione al risultato. Cerco un ambiente dove trasformare queste qualità in competenze social.`
+`Sono abituata a lavorare con precisione e ad accogliere indicazioni e revisioni: per me il confronto è parte del risultato.`
 
 ---
 
@@ -505,13 +494,13 @@ Sezione timeline.
 
 ### Titolo
 
-`Il mio percorso`
+`Da un’esperienza tecnica a un nuovo ruolo creativo`
 
 ### Timeline items
 
 #### ITIS Enrico Fermi — Diploma di Perito Chimico
 
-`Formazione tecnica con focus su analisi, metodo e precisione nei processi produttivi.`
+`Formazione tecnica che mi ha dato basi solide di analisi, metodo e precisione nei processi produttivi.`
 
 Anno:
 
@@ -519,7 +508,7 @@ Anno:
 
 #### Sicer S.p.A. — Tecnico Divisione Digitale
 
-`Esperienza su prove di stampa digitale, ottimizzazione dei parametri e controllo della resa visiva su superfici ceramiche.`
+`Prove di stampa digitale, ottimizzazione dei parametri e controllo della resa visiva su superfici ceramiche: un lavoro tra tecnica, immagine e attenzione al risultato.`
 
 Periodo:
 
@@ -527,7 +516,7 @@ Periodo:
 
 #### Sicer S.p.A. — Tecnico Ricerca & Sviluppo
 
-`Ricerca e test su nuovi materiali, colori e grafiche per prodotti destinati al settore ceramico.`
+`Ricerca e test su materiali, colori e grafiche per il settore ceramico. Un’esperienza concreta che porto nel mio nuovo percorso di comunicazione.`
 
 Periodo:
 
@@ -549,11 +538,19 @@ Stato:
 
 `In corso`
 
+#### Meta — Social Media Marketing Professional Certificate
+
+`Formazione pratica su campagne Meta, contenuti, audience, budget e analisi dei risultati.`
+
+Stato:
+
+`In corso`
+
 ---
 
 ## 6. Progetti concept
 
-Creare 3 progetti fittizi ma realistici.
+Creare 4 progetti concept realistici.
 
 Devono essere chiaramente indicati come concept, esercitazioni o progetti personali.
 
@@ -569,11 +566,27 @@ Sottotitolo:
 
 ### Nota etica da inserire
 
-`I progetti in questa sezione sono concept personali creati a scopo portfolio. Non rappresentano collaborazioni reali con brand o clienti.`
+`I progetti presentati sono esercitazioni personali sviluppate a scopo portfolio. Non rappresentano collaborazioni, risultati o dati reali di brand e clienti.`
 
 ---
 
-### Progetto 1 — Instagram refresh per caffetteria locale
+### Progetto 1 — Materia Colore
+
+Tipo:
+
+`Concept Instagram · Colore, superfici e interior`
+
+Descrizione:
+
+`Un concept per raccontare finiture, superfici decorative e materiali per l’interior con contenuti chiari, visivi e accessibili.`
+
+Obiettivo:
+
+`Tradurre caratteristiche, materiali e lavorazioni in contenuti utili e riconoscibili.`
+
+---
+
+### Progetto 2 — Instagram per caffetteria locale
 
 Nome:
 
@@ -609,7 +622,7 @@ Tag:
 
 ---
 
-### Progetto 2 — Piano contenuti TikTok per brand beauty emergente
+### Progetto 3 — Piano contenuti per brand skincare
 
 Nome:
 
@@ -645,7 +658,7 @@ Tag:
 
 ---
 
-### Progetto 3 — Mini audit social per bottega creativa
+### Progetto 4 — Mini audit social per bottega creativa
 
 Nome:
 
@@ -685,11 +698,11 @@ Tag:
 
 Titolo:
 
-`Strumenti che sto usando e imparando`
+`Quello che uso e quello che sto consolidando`
 
-Dividere in due gruppi.
+Dividere in tre gruppi.
 
-### Uso già
+### Strumenti che uso
 
 - Canva
 - CapCut
@@ -698,16 +711,22 @@ Dividere in due gruppi.
 - TikTok
 - LinkedIn
 
-### Sto imparando
+### Contenuti che so sviluppare
+
+- Grafiche per social
+- Caroselli
+- Copy e caption
+- Ideazione di format
+- Sequenze illustrate
+- Calendari editoriali
+
+### Competenze in crescita
 
 - Meta Business Suite
-- Social media strategy
-- Calendari editoriali
 - Analisi competitor
-- Report base
+- Audit social
+- Reportistica
 - Community management
-- Brand voice
-- Content planning
 
 Non far sembrare che Carlotta sia esperta in strumenti che sta ancora imparando.
 
@@ -719,17 +738,21 @@ Sezione finale forte e diretta.
 
 ### Titolo
 
-`Cerco un posto dove imparare davvero.`
+`Cerco un’agenzia in cui diventare una risorsa, un progetto alla volta.`
 
 ### Testo
 
-`Se lavori in un’agenzia, in uno studio creativo o in un team marketing e cerchi una persona junior motivata, precisa e con tanta voglia di crescere, mi piacerebbe raccontarti meglio il mio percorso.`
+`Mi piacerebbe entrare in un’agenzia di comunicazione, in uno studio creativo o in un ufficio marketing, affiancando il team nella realizzazione di contenuti, concept e piani editoriali per i clienti.`
+
+`Porto un approccio ordinato, occhio estetico e la disponibilità a imparare sul campo. Cerco un contesto dove ricevere feedback, crescere con serietà e dare supporto reale al lavoro quotidiano.`
+
+`Sono interessata a opportunità a Modena e provincia. Se pensi che il mio profilo possa essere utile alla tua realtà, scrivimi.`
 
 ### CTA
 
 Bottoni:
 
-- `Scrivimi via email`
+- `Parliamone via email`
 - `Scarica CV`
 - `LinkedIn`
 
@@ -751,7 +774,7 @@ Contenuti:
 
 Microcopy opzionale:
 
-`Portfolio personale · Modena · Junior Content Creator & Social Media Assistant`
+`Portfolio personale · Castelnuovo Rangone, Modena · Junior Content Creator & Social Media Manager`
 
 ---
 
