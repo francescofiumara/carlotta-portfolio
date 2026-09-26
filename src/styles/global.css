@@ -43,7 +43,7 @@
   }
 
   .eyebrow {
-    @apply text-sm font-bold uppercase text-coral;
+    @apply text-sm font-bold uppercase text-coral dark:text-apricot;
   }
 
   .card {
@@ -61,6 +61,185 @@
   .reveal {
     animation: fadeUp 700ms ease both;
   }
+}
+
+@layer components {
+  .project-card {
+    @apply overflow-hidden rounded-lg border border-ink/10 bg-white/85 dark:border-white/15 dark:bg-nightcard;
+  }
+
+  .project-card--featured {
+    @apply border-coral/30 bg-white dark:border-apricot/40;
+  }
+
+  .project-preview {
+    @apply grid gap-7 p-5 sm:p-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.95fr)] lg:items-center lg:gap-12 lg:p-10;
+  }
+
+  .project-card--featured .project-preview {
+    @apply lg:grid-cols-[minmax(0,0.85fr)_minmax(0,1.15fr)] lg:p-12;
+  }
+
+  .project-label {
+    @apply rounded-full border border-ink/20 px-3 py-1 text-sm font-semibold dark:border-white/30;
+  }
+
+  .project-preview__visual {
+    @apply rounded-lg bg-paper p-3 dark:bg-night sm:p-5;
+  }
+
+  .project-feed {
+    @apply grid grid-cols-3 gap-2 sm:gap-3;
+  }
+
+  .project-feed__tile {
+    @apply flex aspect-square items-end rounded-sm p-1 sm:p-3;
+  }
+
+  .project-feed__tile span,
+  .project-carousel span {
+    @apply max-w-full rounded-sm bg-white/90 px-1.5 py-1 text-xs font-bold leading-snug text-ink sm:px-2 sm:text-sm;
+    overflow-wrap: anywhere;
+  }
+
+  .project-trigger {
+    @apply mt-7 flex min-h-12 w-fit cursor-pointer items-center gap-4 rounded-full bg-ink px-5 py-3 text-base font-bold text-white transition-colors hover:bg-coral focus:outline-none focus-visible:ring-4 focus-visible:ring-coral/40 dark:bg-nighttext dark:text-night dark:hover:bg-apricot;
+  }
+
+  .project-trigger__icon {
+    @apply text-xl leading-none transition-transform;
+  }
+
+  .project-trigger[aria-expanded="true"] .project-trigger__icon {
+    transform: rotate(135deg);
+  }
+
+  .project-case-study[hidden],
+  .project-trigger [hidden] {
+    display: none;
+  }
+
+  .project-case-study {
+    @apply border-t border-ink/10 px-5 pb-8 pt-8 dark:border-white/15 sm:px-8 sm:pb-10 sm:pt-10 lg:px-10;
+    animation: projectReveal 260ms ease-out;
+  }
+
+  .project-card--featured .project-case-study {
+    @apply lg:px-12;
+  }
+
+  .project-story {
+    @apply grid gap-x-10 gap-y-8 lg:grid-cols-2;
+  }
+
+  .project-story section,
+  .project-case-study__section {
+    @apply border-t border-ink/15 pt-5 dark:border-white/20;
+  }
+
+  .project-story__emphasis {
+    @apply rounded-sm border-l-4 border-t-0 border-coral bg-coral/10 p-5 dark:border-apricot dark:bg-apricot/10;
+  }
+
+  .project-story h4,
+  .project-case-study__section > h4 {
+    @apply font-display text-xl font-bold leading-snug text-ink dark:text-nighttext;
+  }
+
+  .project-story p {
+    @apply mt-3 max-w-prose text-base leading-7 text-muted dark:text-nighttext/80;
+  }
+
+  .project-case-study__section {
+    @apply mt-10;
+  }
+
+  .project-pillars {
+    @apply mt-5 grid gap-3 md:grid-cols-2;
+  }
+
+  .project-pillars li {
+    @apply rounded-sm bg-paper px-4 py-3 text-base leading-7 text-muted dark:bg-white/5 dark:text-nighttext/80;
+  }
+
+  .project-pillars strong,
+  .project-channels strong {
+    @apply text-ink dark:text-nighttext;
+  }
+
+  .project-channels {
+    @apply mt-5 grid gap-2 border-l-2 border-coral pl-4 text-base leading-7 text-muted dark:border-apricot dark:text-nighttext/80;
+  }
+
+  .project-outputs {
+    @apply mt-5 grid list-disc gap-x-10 gap-y-2 pl-5 text-base leading-7 text-muted marker:text-coral dark:text-nighttext/80 dark:marker:text-apricot sm:grid-cols-2;
+  }
+
+  .project-gallery {
+    @apply mt-5 grid gap-5 md:grid-cols-2;
+  }
+
+  .project-gallery__group {
+    @apply min-w-0 rounded-sm border border-ink/10 bg-paper/55 p-4 dark:border-white/15 dark:bg-white/[0.04] sm:p-6;
+  }
+
+  .project-gallery__group--wide {
+    @apply md:col-span-2;
+  }
+
+  .project-gallery h5 {
+    @apply mb-4 font-display text-lg font-bold;
+  }
+
+  .project-palette {
+    @apply flex h-20 overflow-hidden rounded-sm;
+  }
+
+  .project-palette span {
+    @apply flex-1;
+  }
+
+  .project-mood {
+    @apply flex flex-wrap gap-2;
+  }
+
+  .project-mood li,
+  .project-calendar li {
+    @apply rounded-sm border border-ink/15 bg-white px-3 py-2 text-base leading-6 dark:border-white/20 dark:bg-nightcard;
+  }
+
+  .project-feed--gallery {
+    @apply max-w-3xl;
+  }
+
+  .project-carousel {
+    @apply grid grid-cols-3 gap-2 sm:gap-3;
+  }
+
+  .project-carousel > div {
+    @apply flex aspect-[4/5] items-end rounded-sm p-2 sm:p-4;
+  }
+
+  .project-captions {
+    @apply grid gap-4;
+  }
+
+  .project-captions li {
+    @apply border-l-2 border-coral pl-4 text-base leading-7 text-muted dark:border-apricot dark:text-nighttext/80;
+  }
+
+  .project-calendar {
+    @apply grid grid-cols-2 gap-2;
+  }
+
+  .project-story--closing {
+    @apply mt-10;
+  }
+}
+
+@keyframes projectReveal {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @media (prefers-reduced-motion: reduce) {

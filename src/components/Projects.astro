@@ -4,89 +4,118 @@ import ProjectCard from './ProjectCard.astro';
 
 const projects = [
   {
-    name: 'Materia Colore',
-    type: 'Concept Instagram · Colore, superfici e interior',
-    label: 'Concept personale',
-    description: 'Un concept per raccontare finiture, superfici decorative e materiali per l’interior con contenuti chiari, visivi e accessibili.',
-    context: 'Una piccola realtà tecnica con prodotti visivamente interessanti, ma difficili da spiegare sui social in modo immediato.',
-    objective: 'Tradurre caratteristiche, materiali e lavorazioni in contenuti utili e riconoscibili.',
-    audience: 'Progettisti, interior designer, artigiani, rivenditori e persone interessate alla casa e alla decorazione.',
-    direction: 'Palette ispirata a pigmenti e superfici, dettagli ravvicinati, linguaggio semplice e composizioni ordinate.',
-    strategy: ['Colore e abbinamenti', 'Materiali e superfici', 'Dettagli di lavorazione', 'Consigli applicativi', 'Ispirazioni per ambienti', 'Aspetti tecnici spiegati con semplicità'],
-    outputs: ['Palette materica', 'Moodboard superfici', '6 anteprime feed', '2 caroselli informativi', 'Post tecnico accessibile', 'Bio, rubriche, caption e calendario di due settimane'],
-    criteria: 'In caso di pubblicazione, osserverei soprattutto i salvataggi dei contenuti informativi, le visite al profilo, le condivisioni tra professionisti e le richieste relative a prodotti, materiali o finiture.',
-    demonstrates: 'L’incontro tra il mio percorso tecnico e l’interesse per la comunicazione: colori, superfici, grafiche e prove di stampa diventano contenuti più chiari e vicini alle persone.',
-    palette: ['#283C42', '#B87E55', '#D8C5A1', '#E9E2D7'],
-    mood: ['pigmenti', 'superfici opache', 'luce laterale', 'interior caldi'],
-    posts: ['Palette', 'Superficie', 'Dettaglio', 'Abbinamenti', 'Materia', 'Ambiente'],
-    carousel: ['Come scegliere una palette', 'Parti dalla luce', 'Unisci due toni e un neutro'],
-    captions: ['Una superficie non è solo un colore: cambia con la luce, lo spazio e i materiali vicini.', 'Tre toni, un neutro e un dettaglio materico: un punto di partenza semplice per comporre.', 'Dietro una finitura ci sono prove, scelte e piccoli equilibri da osservare.'],
-    calendar: ['Lun · Palette', 'Mar · Dettaglio', 'Mer · Carosello', 'Gio · Consiglio', 'Ven · Superficie', 'Sab · Ispirazione', 'Dom · Domande e risposte'],
-    accent: '#B87E55',
-    why: 'Il concept nasce dall’incontro tra il mio percorso tecnico e il nuovo interesse per la comunicazione digitale. L’esperienza con colori, superfici, grafiche e prove di stampa mi aiuta a osservare i prodotti con attenzione e a trasformare aspetti tecnici in contenuti più chiari e vicini alle persone.',
-  },
-  {
-    name: 'Caffè di Quartiere',
-    type: 'Concept Instagram · Caffetteria locale',
-    label: 'Concept personale',
-    description: 'Una presenza Instagram calda e quotidiana per una piccola caffetteria indipendente, pensata per raccontare prodotti, persone e atmosfera.',
-    context: 'Una caffetteria di quartiere con una forte dimensione quotidiana e relazionale, ma con una comunicazione social poco riconoscibile.',
-    objective: 'Costruire una presenza Instagram semplice e coerente, capace di raccontare anche l’atmosfera del locale.',
-    audience: 'Persone della zona, studenti, lavoratori e clienti abituali in cerca di una pausa o di un incontro.',
-    direction: 'Palette calda, fotografie spontanee, testi brevi e un tono vicino alle persone.',
-    strategy: ['Prodotti e stagionalità', 'Persone e vita del locale', 'Piccoli rituali quotidiani', 'Informazioni utili', 'Rapporto con il quartiere'],
-    outputs: ['Palette calda', 'Mini moodboard', '6 post Instagram', 'Carosello completo', '3 caption', 'Calendario settimanale e proposta bio'],
-    criteria: 'In caso di pubblicazione, osserverei le interazioni delle persone della zona, le visite al profilo, le richieste su orari e prodotti e la risposta ai contenuti dedicati alla vita quotidiana del locale.',
-    demonstrates: 'La capacità di partire dall’identità di una realtà locale e organizzarla in contenuti semplici, utili e coerenti.',
-    palette: ['#4E3326', '#C96945', '#E7B86A', '#F6EEE1'],
-    mood: ['tazze vissute', 'luce del mattino', 'legno chiaro', 'incontri'],
-    posts: ['Buongiorno', 'Il banco', 'Pausa', 'Dolce', 'Chi passa', 'Quartiere'],
-    carousel: ['Una pausa qui vicino', 'Il caffè del giorno', 'Ci vediamo al banco'],
-    captions: ['Il primo caffè della giornata, quello che rimette in ordine i pensieri.', 'Oggi sul banco: una pausa semplice fatta bene.', 'Un tavolino libero, due chiacchiere e qualcosa di buono.'],
-    calendar: ['Lun · Buongiorno', 'Mar · Prodotto', 'Mer · Persone', 'Gio · Info', 'Ven · Dolce', 'Sab · Rituale', 'Dom · Quartiere'],
-    accent: '#C96945',
-  },
-  {
     name: 'Glow Lab',
     type: 'Concept Instagram e TikTok · Skincare',
     label: 'Concept personale',
-    description: 'Format statici, copertine e sequenze illustrate per un piccolo brand di skincare che vuole essere fresco e utile senza inseguire ogni tendenza.',
-    context: 'Un piccolo brand di skincare che vuole comunicare in modo fresco e utile senza inseguire ogni tendenza.',
-    objective: 'Creare format semplici e ripetibili per Instagram e TikTok, con un’identità riconoscibile.',
-    audience: 'Persone giovani interessate a skincare, routine semplici e consigli facili da applicare.',
-    direction: 'Contrasti morbidi, palette luminosa, copertine pulite e tono diretto ma non perentorio.',
-    strategy: ['Consigli pratici', 'Errori comuni', 'Routine', 'Prodotto e utilizzo', 'Dietro le quinte', 'Domande frequenti'],
-    outputs: ['5 format di contenuto', '3 sequenze illustrate', '5 hook testuali', 'Copertine e script brevi', '4 caption', 'Calendario di due settimane e tono di voce'],
-    criteria: 'In caso di pubblicazione, osserverei i salvataggi dei consigli, le condivisioni, le domande ricevute e la risposta ai diversi format dedicati a prodotti e routine.',
-    demonstrates: 'La capacità di organizzare idee brevi e ripetibili, mantenendo utilità, chiarezza e continuità visiva.',
+    description: 'Un concept di contenuti per un piccolo brand skincare: un sistema semplice e riconoscibile per trasformare dubbi, routine e prodotto in format utili da ritrovare nel tempo.',
+    context: 'Un piccolo brand di skincare vuole comunicare in modo fresco e accessibile senza dipendere continuamente dal trend del momento. Il rischio è creare contenuti singoli piacevoli da vedere, ma poco riconoscibili nel tempo.',
+    objective: 'Costruire una presenza social coerente e ripetibile, capace di rendere semplici i temi skincare e di creare continuità tra contenuti educativi, routine e prodotto.',
+    audience: 'Persone giovani interessate alla skincare, a routine semplici e a consigli comprensibili e facili da applicare nella quotidianità.',
+    hypothesis: 'Se ogni contenuto risponde a una domanda concreta o semplifica un piccolo momento della routine, il brand può diventare più riconoscibile senza dover inseguire ogni tendenza. La continuità nasce quindi da format ricorrenti, tono chiaro e identità visiva coerente.',
+    direction: 'Contrasti morbidi, palette luminosa, texture leggere, copertine pulite e testi brevi. Il tono è diretto e vicino alle persone, ma evita promesse e formule eccessivamente perentorie.',
+    pillars: [
+      ['Routine semplici', 'sequenze brevi e facili da ricordare.'],
+      ['Dubbi e FAQ', 'risposte chiare alle domande più comuni.'],
+      ['Errori comuni', 'contenuti rapidi costruiti attorno a un singolo punto.'],
+      ['Prodotto e utilizzo', "spiegazione del ruolo del prodotto all'interno della routine."],
+      ['Dietro le quinte', 'contenuti più spontanei per rendere il brand meno distante.'],
+    ],
+    channels: [
+      ['Instagram', 'caroselli, feed e Stories per utilità, riconoscibilità e relazione.'],
+      ['TikTok', 'format brevi e verticali pensati per hook, spiegazioni rapide e routine.'],
+    ],
+    outputs: ['5 format di contenuto', '3 sequenze illustrate', '5 hook testuali', 'copertine e script brevi', '4 caption', 'calendario editoriale di due settimane', 'proposta di tono di voce'],
+    criteria: 'Se il concept venisse pubblicato, confronterei soprattutto i salvataggi e le condivisioni dei contenuti educativi, la risposta ai diversi format, le domande ricevute e la capacità dei contenuti ricorrenti di generare visite al profilo e continuità di interazione.',
+    demonstrates: 'La capacità di trasformare un tema ricco di informazioni in un sistema editoriale semplice e ripetibile, mantenendo coerenza tra utilità, tono di voce e identità visiva.',
     palette: ['#563A67', '#E68FB2', '#FFD6A5', '#FFF8F5'],
     mood: ['texture leggere', 'routine', 'specchio', 'note rapide'],
     posts: ['Routine', 'Errore?', 'FAQ', 'Texture', 'Step 1', 'Dietro'],
     carousel: ['Routine in 3 passaggi', 'Detergi con calma', 'Chiudi con idratazione'],
     captions: ['Una routine utile è quella che riesci davvero a ripetere.', 'Un dubbio comune, una risposta semplice: partiamo dalle basi.', 'Meno passaggi, più costanza: una piccola nota da tenere a mente.'],
     calendar: ['Lun · Hook', 'Mar · FAQ', 'Mer · Routine', 'Gio · Texture', 'Ven · Errore', 'Sab · Dietro le quinte', 'Dom · Domande'],
-    accent: '#E68FB2',
+  },
+  {
+    name: 'Caffè di Quartiere',
+    type: 'Concept Instagram · Caffetteria locale',
+    label: 'Concept personale',
+    description: 'Un concept Instagram per una piccola caffetteria indipendente: non solo prodotti, ma persone, abitudini e atmosfera per rendere il locale riconoscibile anche online.',
+    context: 'Una caffetteria di quartiere vive soprattutto di relazione, abitudini e presenza quotidiana. Una comunicazione concentrata soltanto sui prodotti rischia però di non raccontare ciò che rende il locale familiare e riconoscibile.',
+    objective: 'Costruire una presenza Instagram semplice e coerente che faccia percepire il carattere del locale e accompagni prodotti, informazioni utili e momenti quotidiani con lo stesso tono.',
+    audience: 'Persone della zona, studenti, lavoratori e clienti abituali che cercano un luogo per una pausa, un incontro o un piccolo rito quotidiano.',
+    hypothesis: "Per una realtà locale il contenuto può funzionare meglio quando non mostra soltanto cosa si vende, ma rende riconoscibile l'esperienza: il banco, la luce del mattino, le persone, le abitudini e il rapporto con il quartiere.",
+    direction: "Palette calda, luce naturale, fotografie spontanee, dettagli ravvicinati e testi brevi. L'obiettivo visivo è trasmettere familiarità senza rendere la comunicazione costruita o artificiale.",
+    pillars: [
+      ['Prodotti e stagionalità', "cosa c'è oggi sul banco e piccoli cambiamenti nel tempo."],
+      ['Persone e vita del locale', 'gesti, incontri e momenti quotidiani.'],
+      ['Rituali', 'il primo caffè, la pausa, il tavolino abituale.'],
+      ['Informazioni utili', 'orari, novità e comunicazioni immediate.'],
+      ['Quartiere', 'relazione con il contesto e con chi vive la zona.'],
+    ],
+    outputs: ['palette calda', 'mini moodboard', '6 post Instagram', 'carosello completo', '3 caption', 'calendario settimanale', 'proposta bio'],
+    criteria: 'Se il concept venisse pubblicato, osserverei le interazioni delle persone della zona, le visite al profilo, le richieste su orari e prodotti e la risposta ai contenuti dedicati alla vita quotidiana del locale, confrontandoli con i contenuti più puramente commerciali.',
+    demonstrates: "La capacità di partire dall'identità di una piccola realtà e trasformarla in un sistema di contenuti coerente, unendo informazioni utili, atmosfera e relazione con il pubblico locale.",
+    palette: ['#4E3326', '#C96945', '#E7B86A', '#F6EEE1'],
+    mood: ['tazze vissute', 'luce del mattino', 'legno chiaro', 'incontri'],
+    posts: ['Buongiorno', 'Il banco', 'Pausa', 'Dolce', 'Chi passa', 'Quartiere'],
+    carousel: ['Una pausa qui vicino', 'Il caffè del giorno', 'Ci vediamo al banco'],
+    captions: ['Il primo caffè della giornata, quello che rimette in ordine i pensieri.', 'Oggi sul banco: una pausa semplice fatta bene.', 'Un tavolino libero, due chiacchiere e qualcosa di buono.'],
+    calendar: ['Lun · Buongiorno', 'Mar · Prodotto', 'Mer · Persone', 'Gio · Info', 'Ven · Dolce', 'Sab · Rituale', 'Dom · Quartiere'],
   },
   {
     name: 'Atelier Forma',
     type: 'Concept audit · Bottega artigianale',
     label: 'Concept personale',
-    description: 'Un audit rispettoso e pratico per rendere più chiara e riconoscibile la comunicazione di una bottega creativa.',
-    context: 'Una bottega con prodotti curati e una comunicazione social non ancora pienamente coerente.',
-    objective: 'Rendere il profilo più chiaro e riconoscibile senza stravolgere l’identità artigianale dell’attività.',
-    audience: 'Persone che cercano oggetti curati, idee regalo e lavorazioni artigianali con una storia da raccontare.',
-    direction: 'Toni naturali, spazi ordinati, attenzione ai dettagli del fare e testi che accompagnano senza sovrastare.',
-    strategy: ['Bio e immagine profilo', 'Highlights utili', 'Riconoscibilità visiva', 'Equilibrio tra prodotto e racconto', 'Caption e chiamate all’azione', 'Continuità editoriale'],
-    outputs: ['Audit sintetico', 'Punti di forza e miglioramenti', 'Bio e highlights proposti', '3 rubriche', 'Caption e griglia contenuti', 'Checklist finale'],
-    criteria: 'Dopo l’applicazione delle proposte, osserverei la chiarezza complessiva del profilo, le visite, le interazioni con le rubriche, le richieste sui prodotti e l’utilizzo delle storie in evidenza.',
-    demonstrates: 'L’attenzione alla coerenza tra immagine, messaggio e pubblico, con suggerimenti applicabili e non invasivi.',
+    description: 'Un concept di audit social per una bottega artigianale: mettere ordine nella comunicazione senza cancellarne il carattere, rendendo più chiari identità, contenuti e percorso del profilo.',
+    context: 'Una bottega con prodotti curati e una forte componente manuale può avere molto da raccontare, ma una comunicazione poco organizzata rischia di rendere meno immediati il valore del lavoro e le informazioni utili per chi scopre il profilo.',
+    objective: "Rendere il profilo più chiaro e riconoscibile senza stravolgere l'identità artigianale dell'attività, organizzando meglio presentazione, rubriche e rapporto tra prodotto e racconto.",
+    audience: 'Persone che cercano oggetti curati, idee regalo e lavorazioni artigianali e che vogliono capire non soltanto cosa viene realizzato, ma anche come e con quale attenzione.',
+    hypothesis: "La comunicazione di una bottega artigianale acquista valore quando rende semplice orientarsi nel profilo e, allo stesso tempo, lascia spazio al processo, ai materiali e ai dettagli del fare. L'obiettivo non è rendere il brand più patinato, ma più leggibile e coerente.",
+    direction: 'Toni naturali, spazi ordinati, texture materiche, dettagli delle mani al lavoro e testi che accompagnano le immagini senza sovrastarle.',
+    pillars: [
+      ['Profilo e orientamento', 'bio, immagine profilo e Highlights utili.'],
+      ['Prodotto', 'oggetti, dettagli e utilizzo.'],
+      ['Processo', 'materiali, passaggi e lavoro manuale.'],
+      ['Storia', 'ciò che dà contesto al prodotto e alla bottega.'],
+      ['Continuità editoriale', 'rubriche e alternanza riconoscibile dei contenuti.'],
+      ['Call to action', 'inviti semplici e coerenti con il tono del brand.'],
+    ],
+    outputs: ['audit sintetico', 'punti di forza e possibili miglioramenti', 'proposta bio e Highlights', '3 rubriche', 'caption e griglia contenuti', 'checklist finale'],
+    criteria: "Dopo l'applicazione delle proposte, osserverei la chiarezza complessiva del percorso utente, le visite al profilo, le interazioni con le rubriche, le richieste sui prodotti e l'utilizzo delle Storie in evidenza.",
+    demonstrates: "La capacità di osservare una comunicazione esistente, individuare priorità concrete e proporre interventi coerenti con l'identità del brand, senza cercare di uniformarlo a uno stile generico.",
     palette: ['#355647', '#9BAA7D', '#D7B494', '#F5F0E6'],
     mood: ['carta ruvida', 'mani al lavoro', 'forme', 'bottega'],
     posts: ['Materia', 'Studio', 'Oggetto', 'Passaggio', 'Storia', 'Dettaglio'],
     carousel: ['Un profilo più chiaro', 'Bio: cosa fai', 'Highlights: cosa trovare'],
     captions: ['Ogni oggetto parte da un passaggio lento, da un materiale e da una scelta.', 'Un dettaglio di oggi dal tavolo di lavoro.', 'Per chi cerca un pezzo fatto con cura, senza fretta.'],
     calendar: ['Lun · Prodotto', 'Mar · Dietro', 'Mer · Storia', 'Gio · FAQ', 'Ven · Dettaglio', 'Sab · Rubrica', 'Dom · Riepilogo'],
-    accent: '#355647',
+  },
+  {
+    name: 'Materia Colore',
+    type: 'Concept Instagram · Colore, superfici e interior',
+    label: 'Concept personale',
+    description: 'Un concept Instagram che trasforma materiali, superfici e aspetti tecnici in contenuti visivi più semplici da capire e utilizzare, mettendo in dialogo il mio background tecnico e la comunicazione.',
+    context: 'Una piccola realtà tecnica può avere prodotti visivamente interessanti e molte informazioni da condividere, ma caratteristiche, materiali e lavorazioni non sono sempre immediati da raccontare sui social.',
+    objective: 'Tradurre contenuti tecnici e materici in una comunicazione più accessibile, mantenendo precisione e utilità ma costruendo una presenza visiva riconoscibile.',
+    audience: 'Progettisti, interior designer, artigiani, rivenditori e persone interessate alla casa, ai materiali e alla decorazione.',
+    hypothesis: "Un contenuto tecnico può diventare più accessibile quando parte da un elemento visivo concreto — un colore, una superficie, un dettaglio o un'applicazione — e utilizza il testo per spiegare soltanto ciò che serve a comprenderlo meglio.",
+    direction: "Palette ispirata a pigmenti e superfici, dettagli ravvicinati, luce laterale, composizioni ordinate e linguaggio semplice. La parte tecnica rimane presente, ma non domina l'esperienza visiva.",
+    pillars: [
+      ['Colore e abbinamenti'],
+      ['Materiali e superfici'],
+      ['Dettagli di lavorazione'],
+      ['Consigli applicativi'],
+      ['Ispirazioni per ambienti'],
+      ['Aspetti tecnici spiegati con semplicità'],
+    ],
+    outputs: ['palette materica', 'moodboard superfici', '6 anteprime feed', '2 caroselli informativi', 'post tecnico accessibile', 'bio e rubriche', 'caption', 'calendario di due settimane'],
+    criteria: 'Se il concept venisse pubblicato, osserverei soprattutto i salvataggi dei contenuti informativi, le visite al profilo, le condivisioni tra professionisti e le richieste relative a prodotti, materiali o finiture, confrontando la risposta ai contenuti più tecnici con quella ai contenuti di ispirazione.',
+    demonstrates: 'Il collegamento tra il mio percorso tecnico e la comunicazione: osservare un prodotto con attenzione, selezionare le informazioni davvero utili e trasformarle in contenuti più chiari, visivi e vicini alle persone.',
+    palette: ['#283C42', '#B87E55', '#D8C5A1', '#E9E2D7'],
+    mood: ['pigmenti', 'superfici opache', 'luce laterale', 'interior caldi'],
+    posts: ['Palette', 'Superficie', 'Dettaglio', 'Abbinamenti', 'Materia', 'Ambiente'],
+    carousel: ['Come scegliere una palette', 'Parti dalla luce', 'Unisci due toni e un neutro'],
+    captions: ['Una superficie non è solo un colore: cambia con la luce, lo spazio e i materiali vicini.', 'Tre toni, un neutro e un dettaglio materico: un punto di partenza semplice per comporre.', 'Dietro una finitura ci sono prove, scelte e piccoli equilibri da osservare.'],
+    calendar: ['Lun · Palette', 'Mar · Dettaglio', 'Mer · Carosello', 'Gio · Consiglio', 'Ven · Superficie', 'Sab · Ispirazione', 'Dom · Domande e risposte'],
   },
 ] as const;
 ---
@@ -97,21 +126,26 @@ const projects = [
     <p class="mx-auto mb-8 max-w-3xl rounded-lg border border-coral/20 bg-coral/10 p-4 text-center text-sm font-semibold leading-6 text-muted dark:bg-coral/10 dark:text-nighttext/80">
       I progetti presentati sono esercitazioni personali sviluppate a scopo portfolio. Non rappresentano collaborazioni, risultati o dati reali di brand e clienti.
     </p>
-    <div class="grid gap-6 md:grid-cols-2">
-      {projects.map((project) => <ProjectCard {...project} />)}
+    <div class="grid gap-7">
+      {projects.map((project, index) => <ProjectCard {...project} index={index} featured={index === 0} />)}
     </div>
   </div>
 </section>
 
 <script>
-  const projectDetails = document.querySelectorAll<HTMLDetailsElement>('[data-project-details]');
+  const triggers = document.querySelectorAll<HTMLButtonElement>('[data-project-trigger]');
 
-  projectDetails.forEach((detail) => {
-    detail.addEventListener('toggle', () => {
-      if (!detail.open) return;
-      projectDetails.forEach((otherDetail) => {
-        if (otherDetail !== detail) otherDetail.open = false;
-      });
-    });
-  });
+  function setProjectOpen(button: HTMLButtonElement, open: boolean) {
+    const panel = document.getElementById(button.getAttribute('aria-controls')!);
+    if (!panel) return;
+    button.setAttribute('aria-expanded', String(open));
+    button.querySelector<HTMLElement>('[data-open-label]')!.hidden = open;
+    button.querySelector<HTMLElement>('[data-close-label]')!.hidden = !open;
+    panel.hidden = !open;
+  }
+
+  triggers.forEach((button) => button.addEventListener('click', () => {
+    const open = button.getAttribute('aria-expanded') !== 'true';
+    triggers.forEach((otherButton) => setProjectOpen(otherButton, otherButton === button && open));
+  }));
 </script>

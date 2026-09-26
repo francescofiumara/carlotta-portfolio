@@ -42,9 +42,9 @@ const items = [
       {items.map((item) => (
         <article class="relative border-l border-ink/10 pb-6 pl-6 last:pb-0 dark:border-white/10">
           <span class="absolute -left-2 top-1 h-4 w-4 rounded-full border-4 border-paper bg-coral dark:border-night"></span>
-          <p class="text-sm font-bold text-coral">{item.date}</p>
+          <p class="text-sm font-bold text-coral dark:text-apricot">{item.date}</p>
           <h3 class="mt-2 font-display text-xl font-bold">{item.title}</h3>
-          <p class="mt-1 leading-6 text-muted dark:text-nighttext/72">{item.text}</p>
+          <p class="mt-1 leading-6 text-muted dark:text-nighttext/80">{item.text}</p>
         </article>
       ))}
     </div>

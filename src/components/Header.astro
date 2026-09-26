@@ -17,7 +17,7 @@ const links = [
 
     <nav class="hidden items-center gap-7 md:flex" aria-label="Navigazione principale">
       {links.map((link) => (
-        <a class="text-sm font-semibold text-muted hover:text-coral dark:text-nighttext/72 dark:hover:text-apricot" href={link.href}>
+        <a class="text-sm font-semibold text-muted hover:text-coral dark:text-nighttext/80 dark:hover:text-apricot" href={link.href}>
           {link.label}
         </a>
       ))}
@@ -46,7 +46,7 @@ const links = [
   <nav id="mobile-menu" class="hidden border-t border-ink/10 bg-paper px-5 py-4 dark:border-white/10 dark:bg-night md:hidden" aria-label="Navigazione mobile">
     <div class="mx-auto flex max-w-7xl flex-col gap-3">
       {links.map((link) => (
-        <a class="rounded-lg px-2 py-2 text-sm font-semibold text-muted hover:bg-white/70 hover:text-coral dark:text-nighttext/72 dark:hover:bg-white/5 dark:hover:text-apricot" href={link.href}>
+        <a class="rounded-lg px-2 py-2 text-sm font-semibold text-muted hover:bg-white/70 hover:text-coral dark:text-nighttext/80 dark:hover:bg-white/5 dark:hover:text-apricot" href={link.href}>
           {link.label}
         </a>
       ))}

@@ -8,7 +8,7 @@ export default {
         paper: '#F8F4EF',
         ink: '#1E1E1E',
         muted: '#5F5A56',
-        coral: '#D46A6A',
+        coral: '#A94353',
         apricot: '#F2B880',
         lilac: '#CDB7D8',
         sage: '#A8BFA3',
